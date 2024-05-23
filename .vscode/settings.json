@@ -3,5 +3,11 @@
   "files.eol": "\n",
   "editor.tabSize": 2,
   "editor.renderControlCharacters": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  }
 }
