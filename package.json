@@ -1,8 +1,12 @@
 {
   "scripts": {
-    "css:w": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "tailwind:b": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "tailwind:w": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
+  },
+  "volta": {
+    "node": "20.13.1"
   }
 }
